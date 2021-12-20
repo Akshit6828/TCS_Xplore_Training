@@ -8,12 +8,6 @@ public class VovelsConsonants {
         String str = s.next();
         str = str.toLowerCase();
 
-        System.out.println("Checking");
-        for(char ch = 'A'; ch<='Z';ch++){
-            System.out.println(ch);
-        }
-
-        System.out.println("END");
         for(int i =0;i< str.length();i++){
           char ch = str.charAt(i);
           if((ch >='a' && ch <='z' )){
@@ -23,7 +17,9 @@ public class VovelsConsonants {
              consonantCount++;
             }
         }
+        if(vovelCount>0)
         System.out.println("Number of Vowels: "+vovelCount);
+        if(consonantCount>0)
         System.out.print("Number of Consonants: "+consonantCount);
         s.close();
         }
