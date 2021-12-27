@@ -2,6 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class PlayerAverageScore {
+  private
     int playerId, iccRank, noOfMatchesPlayed, totalRunsScored;
     String playerName;
 
